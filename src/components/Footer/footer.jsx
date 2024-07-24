@@ -5,7 +5,7 @@ export default function Footer() {
     <div>
       <img src={FooterLogo} alt="Logo Kasa" />
       <div>
-        <i class="fa-regular fa-copyright"></i>
+        <i className="fa-regular fa-copyright"></i>
         <p>2020 Kasa. All rights reserved</p>
       </div>
     </div>

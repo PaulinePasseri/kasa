@@ -10,7 +10,19 @@ export default function Collapse({ title, description }) {
           className={`fa-solid ${isCollapsed ? 'fa-chevron-down' : 'fa-chevron-up'}`}
         ></i>
       </div>
-      {!isCollapsed && <p>{description}</p>}
+      {!isCollapsed && (
+        <div>
+          {Array.isArray(description) ? (
+            <ul>
+              {description.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          ) : (
+            <p>{description}</p>
+          )}
+        </div>
+      )}
     </div>
   )
 }

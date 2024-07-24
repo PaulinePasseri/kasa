@@ -6,6 +6,7 @@ import About from './pages/About/about'
 import Error from './components/Error/error'
 import Header from './components/Header/header'
 import Footer from './components/Footer/footer'
+import Accomodation from './components/Accomodation/accomodation'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="*" element={<Error />} />
+        <Route path="/accomodation/:id" element={<Accomodation />} />
       </Routes>
       <Footer />
     </Router>
