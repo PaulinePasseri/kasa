@@ -1,3 +1,11 @@
+import Banner from '../../components/Banner/banner'
+import Card from '../../components/Card/card'
+
 export default function Home() {
-  return <h1>Home</h1>
+  return (
+    <div>
+      <Banner />
+      <Card />
+    </div>
+  )
 }
