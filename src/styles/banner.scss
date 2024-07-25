@@ -8,7 +8,6 @@
   justify-content: center;
   align-items: center;
   border-radius: 25px;
-  margin: 0 auto;
   &--img {
     object-fit: cover;
     width: 100%;
@@ -17,7 +16,7 @@
 }
 
 .banner__home {
-  margin-bottom: 43px;
+  margin: 43px auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.322);
   &::after {
     content: '';
@@ -38,7 +37,7 @@
 }
 
 .banner__about {
-  margin-bottom: 38px;
+  margin: 38px auto;
   &::after {
     content: '';
     position: absolute;
