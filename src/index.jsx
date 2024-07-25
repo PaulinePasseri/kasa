@@ -7,6 +7,7 @@ import Error from './components/error'
 import Header from './components/header'
 import Footer from './components/footer'
 import Accomodation from './components/accomodation'
+import './styles/main.scss'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

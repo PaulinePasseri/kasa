@@ -6,15 +6,23 @@ export default function Banner() {
   const location = useLocation()
   if (location.pathname === '/about') {
     return (
-      <div>
-        <img src={AboutBanner} alt="bannière avec paysage" />
+      <div className="banner__about">
+        <img
+          src={AboutBanner}
+          alt="bannière avec paysage"
+          className="banner__about--img"
+        />
       </div>
     )
   } else {
     return (
-      <div>
-        <img src={HomeBanner} alt="bannière avec paysage" />
-        <h1>Chez vous, partout et ailleurs</h1>
+      <div className="banner__home">
+        <img
+          src={HomeBanner}
+          alt="bannière avec paysage"
+          classeName="banner__home--img"
+        />
+        <h1 className="banner__home--title">Chez vous, partout et ailleurs</h1>
       </div>
     )
   }

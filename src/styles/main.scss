@@ -1,0 +1,28 @@
+@import './banner.scss';
+@import './header.scss';
+
+$primary-color: #ff6060;
+$secondary-color: #e3e3e3;
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  @include flex-column();
+  margin: 0 auto;
+  max-width: 1440px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: medium;
+}
