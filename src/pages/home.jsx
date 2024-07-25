@@ -1,5 +1,5 @@
-import Banner from '../../components/Banner/banner'
-import Card from '../../components/Card/card'
+import Banner from '../components/banner'
+import Card from '../components/card'
 
 export default function Home() {
   return (

@@ -1,5 +1,5 @@
-import Banner from '../../components/Banner/banner'
-import Collapse from '../../components/Collapse/collapse'
+import Banner from '../components/banner'
+import Collapse from '../components/collapse'
 
 export default function About() {
   return (

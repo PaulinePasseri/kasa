@@ -1,12 +1,12 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom/client'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home/home'
-import About from './pages/About/about'
-import Error from './components/Error/error'
-import Header from './components/Header/header'
-import Footer from './components/Footer/footer'
-import Accomodation from './components/Accomodation/accomodation'
+import Home from './pages/home'
+import About from './pages/about'
+import Error from './components/error'
+import Header from './components/header'
+import Footer from './components/footer'
+import Accomodation from './components/accomodation'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

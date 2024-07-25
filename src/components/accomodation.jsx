@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom'
-import data from '../../data.json'
-import Collapse from '../Collapse/collapse'
-import Slideshow from '../Slideshow/slideshow'
+import data from '../data.json'
+import Collapse from './collapse'
+import Slideshow from './slideshow'
 
 export default function Accomodation() {
   const { id } = useParams()

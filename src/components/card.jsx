@@ -1,4 +1,4 @@
-import data from '../../data.json'
+import data from '../data.json'
 import { Link } from 'react-router-dom'
 
 export default function Card() {
