@@ -2,9 +2,13 @@ import FooterLogo from '../assets/footer-logo.png'
 
 export default function Footer() {
   return (
-    <div>
-      <img src={FooterLogo} alt="Logo Kasa" />
-      <div>
+    <div className="footer__container">
+      <img
+        src={FooterLogo}
+        alt="Logo Kasa"
+        className="footer__container--img"
+      />
+      <div className="footer__container--txt">
         <i className="fa-regular fa-copyright"></i>
         <p>2020 Kasa. All rights reserved</p>
       </div>

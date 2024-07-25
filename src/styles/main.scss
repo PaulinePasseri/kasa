@@ -1,5 +1,6 @@
 @import './banner.scss';
 @import './header.scss';
+@import './footer.scss';
 
 $primary-color: #ff6060;
 $secondary-color: #e3e3e3;
@@ -25,4 +26,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: medium;
+}
+
+p {
+  margin: 0;
 }

@@ -3,7 +3,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 45px 0;
+  margin: 45px auto;
+  width: 1240px;
   &__routes {
     display: flex;
     gap: 57px;
