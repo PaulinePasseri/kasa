@@ -1,0 +1,75 @@
+.accomodation__container {
+  margin: 50px auto;
+  width: 1240px;
+  &--info {
+    display: flex;
+    flex-direction: row;
+    gap: 76px;
+  }
+}
+
+.info__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 0 24px;
+  &--txt h2 {
+    color: $primary-color;
+    font-weight: 500;
+  }
+  &--txt p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  &--host {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  &--host p {
+    color: $primary-color;
+    max-width: 120px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+  }
+  &--host img {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+  }
+  &--rating {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  &--tags {
+    margin-left: 0;
+    & ul {
+      color: white;
+      font-size: 14px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      padding: 0;
+    }
+    & li {
+      background-color: $primary-color;
+      border-radius: 10px;
+      min-width: 115px;
+      text-align: center;
+      padding: 3px 10px;
+    }
+  }
+}
+
+.filled-star {
+  color: $primary-color;
+}
+
+.empty-star {
+  color: $secondary-color;
+}

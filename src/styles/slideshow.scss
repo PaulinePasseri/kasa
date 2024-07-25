@@ -1,0 +1,26 @@
+.slideshow__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1240px;
+  position: relative;
+  &--img {
+    height: 415px;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  & .fa-chevron-right,
+  .fa-chevron-left {
+    position: absolute;
+    color: white;
+    font-size: 68px;
+    top: 185px;
+    cursor: pointer;
+  }
+  & .fa-chevron-left {
+    left: 24px;
+  }
+  & .fa-chevron-right {
+    right: 24px;
+  }
+}

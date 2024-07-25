@@ -13,8 +13,12 @@ export default function Slideshow({ pictures }) {
     setSlide(newIndex)
   }
   return (
-    <div>
-      <img src={pictures[slide]} alt="carrousel du logement" />
+    <div className="slideshow__container">
+      <img
+        src={pictures[slide]}
+        alt="carrousel du logement"
+        className="slideshow__container--img"
+      />
       <i class="fa-solid fa-chevron-left" onClick={goToPrevious}></i>
       <i class="fa-solid fa-chevron-right" onClick={goToNext}></i>
     </div>
