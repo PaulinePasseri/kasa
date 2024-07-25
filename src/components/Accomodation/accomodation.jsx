@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom'
 import data from '../../data.json'
 import Collapse from '../Collapse/collapse'
+import Slideshow from '../Slideshow/slideshow'
 
 export default function Accomodation() {
   const { id } = useParams()
@@ -11,7 +12,7 @@ export default function Accomodation() {
   }
   return (
     <div>
-      <img src={item.cover} alt="logement" />
+      <Slideshow pictures={item.pictures} />
       <div>
         <h2>{item.title}</h2>
         <p>{item.description}</p>
