@@ -6,6 +6,7 @@
   border-radius: 10px;
   margin: 15px 0;
   overflow: hidden;
+  transition: max-height 0.4s ease;
 }
 
 .collapse__container--title {
@@ -31,4 +32,12 @@
   color: white;
   font-size: 24px;
   transition: transform 0.3s ease;
+}
+
+.collapsed {
+  max-height: 52px;
+}
+
+.expanded {
+  max-height: 1000px;
 }
