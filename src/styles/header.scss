@@ -19,3 +19,18 @@
 .underline {
   text-decoration: underline;
 }
+
+@media screen and (max-width:376px) {
+  .navBar {
+    padding: 0 20px;
+    &__logo {
+      width: 145px;
+      height: 47px;
+    }
+    &__routes {
+      gap: 26px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+  }
+}
