@@ -9,6 +9,13 @@
     object-fit: cover;
     border-radius: 25px;
   }
+  &--txt {
+    position: absolute;
+    color: white;
+    right: 610px;
+    bottom: 24px;
+    font-size: 18px;
+  }
   & .fa-chevron-right,
   .fa-chevron-left {
     position: absolute;

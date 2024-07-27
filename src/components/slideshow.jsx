@@ -21,6 +21,7 @@ export default function Slideshow({ pictures }) {
       />
       <i class="fa-solid fa-chevron-left" onClick={goToPrevious}></i>
       <i class="fa-solid fa-chevron-right" onClick={goToNext}></i>
+      <p className='slideshow__container--txt'>1/{pictures.length}</p>
     </div>
   )
 }
