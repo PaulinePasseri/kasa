@@ -21,3 +21,17 @@
 .fa-copyright {
   font-size: 16px;
 }
+
+@media screen and (max-width:400px) {
+  .footer__container {
+    &--txt {
+      font-size: 12px;
+      max-width: 133px;
+      text-align: center;
+      gap: 2px;
+    }
+  }
+  .fa-copyright {
+    font-size: 12px;
+  }
+}

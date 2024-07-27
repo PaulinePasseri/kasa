@@ -20,7 +20,7 @@ export default function Banner() {
         <img
           src={HomeBanner}
           alt="bannière avec paysage"
-          classeName="banner__home--img"
+          className="banner__home--img"
         />
         <h1 className="banner__home--title">Chez vous, partout et ailleurs</h1>
       </div>

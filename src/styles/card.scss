@@ -46,3 +46,11 @@ $secondary-color: #e3e3e3;
     max-width: 200px;
   }
 }
+
+@media screen and (max-width:400px) {
+  .cards__container--link {
+    width: 335px;
+    height: 225px;
+    margin: 10px;
+  }
+}

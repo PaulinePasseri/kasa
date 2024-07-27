@@ -17,16 +17,6 @@ $secondary-color: #e3e3e3;
   align-items: center;
 }
 
-body {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1440px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  font-weight: medium;
-  box-sizing: border-box;
-}
-
 p,
 h2,
 ul {
@@ -37,10 +27,26 @@ li {
   list-style: none;
 }
 
+body, #root {
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: medium;
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 1440px;
+}
+
 .about__container {
-  @include flex-column();
   margin: 0 auto 38px auto;
   width: 100%;
   max-width: 1083px;
+}
+
+.home__container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
