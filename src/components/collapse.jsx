@@ -12,9 +12,7 @@ export default function Collapse({ title, description }) {
         onClick={() => setIsCollapsed(!isCollapsed)}
       >
         <h2>{title}</h2>
-        <i
-          className={`fa-solid ${isCollapsed ? 'fa-chevron-down' : 'fa-chevron-up'}`}
-        ></i>
+        <i class="fa-solid fa-chevron-down"></i>
       </div>
       <div className="collapse__container--txt">
         {Array.isArray(description) ? (
