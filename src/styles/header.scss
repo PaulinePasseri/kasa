@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: space-between;
   margin: 45px auto 0 auto;
-  width: 1240px;
+  width: 100%;
+  max-width: 1240px;
   &__routes {
     display: flex;
     gap: 57px;

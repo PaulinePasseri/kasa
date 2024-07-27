@@ -1,6 +1,7 @@
 .accomodation__container {
   margin: 50px auto;
-  width: 1240px;
+  width: 100%;
+  max-width: 1240px;
   &--info {
     display: flex;
     flex-direction: row;

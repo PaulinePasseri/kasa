@@ -1,7 +1,8 @@
 .banner__home,
 .banner__about {
   height: 223px;
-  width: 1240px;
+  max-width: 1240px;
+  width: 100%;
   position: relative;
   overflow: hidden;
   display: flex;
