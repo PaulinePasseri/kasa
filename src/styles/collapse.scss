@@ -14,7 +14,7 @@
   color: white;
   font-size: 18px;
   font-weight: 500;
-  padding: 10px 15px;
+  padding: 0 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,4 +44,11 @@
 
 .expanded .fa-chevron-down { 
   transform: rotate(180deg)
+}
+
+@media screen and (max-width: 600px) {
+  .collapse__container--title {
+    font-size: 13px;
+    min-height: 52px;
+  }
 }

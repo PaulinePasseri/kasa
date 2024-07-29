@@ -26,7 +26,7 @@ export default function Accomodation() {
             </ul>
           </div>
         </div>
-        <div>
+        <div className='info__container--profile'>
           <div className="info__container--host">
             <p>{item.host.name}</p>
             <img src={item.host.picture} alt="hôte" />

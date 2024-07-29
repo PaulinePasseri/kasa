@@ -23,6 +23,9 @@
     font-weight: 500;
     margin-bottom: 20px;
   }
+  &--profile {
+    margin-top: 20px;
+  }
   &--host {
     display: flex;
     flex-direction: row;
@@ -45,7 +48,6 @@
     display: flex;
     justify-content: right;
     gap: 10px;
-    margin-top: 20px;
   }
   &--tags {
     margin-left: 0;
@@ -73,4 +75,47 @@
 
 .empty-star {
   color: $secondary-color;
+}
+
+@media screen and (max-width: 600px) {
+  .info__container {
+    flex-direction: column;
+    &--txt h2 {
+      font-size: 18px;
+    }
+    &--txt p {
+      font-size: 14px;
+    }
+    &--tags {
+      font-size: 10px;
+      & ul {
+        flex-wrap: wrap;
+      }
+    }
+    &--rating {
+      font-size: 16px;
+    }
+    &--host img {
+      height: 32px;
+      width: 32px;
+    }
+    &--host p {
+      font-size: 12px;
+    }
+  }
+  .info__container--profile {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .accomodation__container {
+    margin: 20px auto;
+    &--info {
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+  
 }
