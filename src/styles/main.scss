@@ -42,7 +42,8 @@ li {
 
 
 @media screen and (max-width: 1440px) {
-  #root {
+  #root, body {
     padding: 0 20px;
+    margin: 0 auto;
   }
 }
