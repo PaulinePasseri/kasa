@@ -19,7 +19,9 @@ $secondary-color: #e3e3e3;
 
 p,
 h2,
-ul {
+ul, 
+body
+{
   margin: 0;
 }
 
@@ -27,26 +29,25 @@ li {
   list-style: none;
 }
 
-body, #root {
+#root {
   height: 100%;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: medium;
   box-sizing: border-box;
-  margin: auto;
   max-width: 1440px;
 }
 
-.about__container {
-  margin: 0 auto 38px auto;
-  width: 100%;
-  max-width: 1083px;
-}
-
-.home__container {
+.home__container, .about__container {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
 }
 
+
+@media screen and (max-width: 1440px) {
+  #root {
+    padding: 0 20px;
+  }
+}

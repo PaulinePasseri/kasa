@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 25px;
-  margin: 40px auto;
+  margin: 0 auto 40px auto;
   &--img {
     object-fit: cover;
     width: 100%;
@@ -56,7 +56,6 @@
   .banner__about, .banner__home {
     height: 111px;
     border-radius: 10px;
-    margin: 20px auto;
     
   }
   .banner__home--title {

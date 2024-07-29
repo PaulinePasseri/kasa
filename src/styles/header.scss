@@ -3,16 +3,15 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 45px auto 0 auto;
   width: 100%;
   max-width: 1240px;
-  padding: 0 20px;
+  margin: 45px auto;
   &__routes {
     display: flex;
-    gap: 57px;
     &--link {
       color: black;
       text-decoration: none;
+      margin-left: 25px;
     }
   }
 }
@@ -23,13 +22,12 @@
 
 @media screen and (max-width:400px) {
   .navBar {
-    padding: 0 20px;
     &__logo {
       width: 145px;
       height: 47px;
     }
     &__routes {
-      gap: 26px;
+      margin-left: 10px;
       font-size: 12px;
       text-transform: uppercase;
     }

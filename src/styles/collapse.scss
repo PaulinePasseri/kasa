@@ -2,9 +2,10 @@
   background-color: $primary-color;
   position: relative;
   width: 100%;
+  max-width: 1083px;
   height: auto;
   border-radius: 10px;
-  margin: 15px 0;
+  margin: 15px auto;
   overflow: hidden;
   transition: max-height 0.4s ease;
 }
