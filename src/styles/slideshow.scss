@@ -32,3 +32,24 @@
     right: 24px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .slideshow__container {
+    &--img {
+      height: 255px;
+    }
+    &--txt {
+      display: none;
+    }
+    & .fa-chevron-left, .fa-chevron-right {
+      font-size: 30px;
+      top: 110px;
+    }
+    & .fa-chevron-left {
+      left: 10px;
+    }
+    & .fa-chevron-right {
+      right: 10px;
+    }
+  }
+}
