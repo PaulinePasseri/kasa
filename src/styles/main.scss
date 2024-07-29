@@ -10,13 +10,6 @@
 $primary-color: #ff6060;
 $secondary-color: #e3e3e3;
 
-@mixin flex-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 p,
 h2,
 ul, 
@@ -29,7 +22,7 @@ li {
   list-style: none;
 }
 
-#root {
+#root, body {
   height: 100%;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
@@ -37,6 +30,8 @@ li {
   font-weight: medium;
   box-sizing: border-box;
   max-width: 1440px;
+  padding: 0 50px;
+  margin: 0 auto;
 }
 
 .home__container, .about__container {
