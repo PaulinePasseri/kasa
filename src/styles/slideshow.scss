@@ -13,7 +13,7 @@
   &--txt {
     position: absolute;
     color: white;
-    right: 610px;
+    right: 50%;
     bottom: 24px;
     font-size: 18px;
   }
@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .slideshow__container {
     &--img {
       height: 255px;

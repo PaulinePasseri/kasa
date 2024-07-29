@@ -24,13 +24,14 @@
   font-size: 16px;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
   .footer__container {
     margin: 20px auto 0 auto;
     &--txt {
       font-size: 12px;
       max-width: 133px;
       text-align: center;
+      font-size: 12px;
     }
   }
   .fa-copyright {

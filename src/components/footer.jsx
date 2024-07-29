@@ -9,8 +9,7 @@ export default function Footer() {
         className="footer__container--img"
       />
       <div className="footer__container--txt">
-        <i className="fa-regular fa-copyright"></i>
-        <p>2020 Kasa. All rights reserved</p>
+        <p><i className="fa-regular fa-copyright"></i> 2020 Kasa. All rights reserved</p>
       </div>
     </div>
   )

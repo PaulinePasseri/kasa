@@ -16,6 +16,8 @@
   font-weight: 500;
   padding: 0 10px;
   display: flex;
+  min-height: 52px;
+  max-height: 52px;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
@@ -46,7 +48,7 @@
   transform: rotate(180deg)
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .collapse__container--title {
     font-size: 13px;
     min-height: 52px;
