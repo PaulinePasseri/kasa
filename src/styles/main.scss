@@ -22,7 +22,7 @@ li {
   list-style: none;
 }
 
-#root, body {
+#root {
   height: 100%;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
@@ -42,7 +42,7 @@ li {
 
 
 @media screen and (max-width: 1440px) {
-  #root, body {
+  #root {
     padding: 0 20px;
     margin: 0 auto;
   }

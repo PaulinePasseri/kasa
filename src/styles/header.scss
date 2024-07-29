@@ -20,16 +20,18 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
   .navBar {
     &__logo {
       width: 145px;
       height: 47px;
     }
     &__routes {
-      margin-left: 10px;
       font-size: 12px;
       text-transform: uppercase;
+      &--link {
+        margin-left: 20px;
+      }
     }
   }
 }
