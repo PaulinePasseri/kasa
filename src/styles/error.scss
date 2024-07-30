@@ -8,10 +8,28 @@
   &--txt {
     color: $primary-color;
     font-size: 36px;
+    text-align: center;
   }
   &--link {
     margin: 139px 0;
     font-size: 18px;
     color: black;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .error__container {
+    &--img {
+      width: 198px;
+      height: 99px;
+      margin: 113px 0;
+    }
+    &--txt {
+      font-size: 18px;
+    }
+    &--link {
+      font-size: 14px;
+      margin: 113px 0;
+    }
   }
 }
