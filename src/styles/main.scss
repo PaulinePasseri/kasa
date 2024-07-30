@@ -29,20 +29,17 @@ li {
   font-size: 24px;
   font-weight: medium;
   box-sizing: border-box;
-  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.content {
   padding: 0 50px;
-  margin: 0 auto;
-}
-
-.home__container, .about__container {
-  width: 100%;
   max-width: 1440px;
-  margin: 0 auto;
-}
 
+}
 
 @media screen and (max-width: 1440px) {
-  #root {
+  .content {
     padding: 0 20px;
     margin: 0 auto;
   }

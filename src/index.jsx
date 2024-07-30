@@ -12,13 +12,15 @@ import './styles/main.scss'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="*" element={<Error />} />
-        <Route path="/accomodation/:id" element={<Accomodation />} />
-      </Routes>
+      <div className='content'>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<Error />} />
+          <Route path="/accomodation/:id" element={<Accomodation />} />
+        </Routes>
+      </div>
       <Footer />
     </Router>
   </React.StrictMode>,
