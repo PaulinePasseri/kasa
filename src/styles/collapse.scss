@@ -1,5 +1,4 @@
 .collapse__container {
-  background-color: $primary-color;
   position: relative;
   width: 100%;
   max-width: 1083px;
@@ -11,6 +10,7 @@
 }
 
 .collapse__container--title {
+  background-color: $primary-color;
   color: white;
   font-size: 18px;
   font-weight: 500;
