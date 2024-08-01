@@ -2,11 +2,10 @@
   position: relative;
   width: 100%;
   max-width: 1083px;
-  height: auto;
+  height: fit-content;
   border-radius: 10px;
   margin: 15px auto;
   overflow: hidden;
-  transition: max-height 0.4s ease;
 }
 
 .collapse__container--title {
@@ -37,16 +36,26 @@
 }
 
 .collapsed {
-  max-height: 52px;
+  height: 52px;
 }
 
 .expanded {
-  max-height: 1000px;
+  // animation: open 0.4s ease-in-out;
+  // animation-fill-mode: forward;
 }
 
 .expanded .fa-chevron-down { 
   transform: rotate(180deg)
 }
+
+@keyframes open {
+  from {
+    height: 52px;
+  }
+  to {
+    height: 100%;
+  }
+} 
 
 @media screen and (max-width: 800px) {
   .collapse__container--title {
