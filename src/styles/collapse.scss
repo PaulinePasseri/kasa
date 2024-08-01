@@ -1,11 +1,11 @@
 .collapse__container {
   position: relative;
   width: 100%;
-  max-width: 1083px;
-  height: fit-content;
   border-radius: 10px;
   margin: 15px auto;
   overflow: hidden;
+  max-height: 52px;
+  transition: max-height 0.5s linear;
 }
 
 .collapse__container--title {
@@ -15,8 +15,7 @@
   font-weight: 500;
   padding: 0 10px;
   display: flex;
-  min-height: 52px;
-  max-height: 52px;
+  height: 52px;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
@@ -36,26 +35,16 @@
 }
 
 .collapsed {
-  height: 52px;
+  max-height: 52px;
 }
 
 .expanded {
-  // animation: open 0.4s ease-in-out;
-  // animation-fill-mode: forward;
+  max-height: 150px; /* Ajuste cette valeur selon la hauteur maximale de ton contenu */
 }
 
 .expanded .fa-chevron-down { 
-  transform: rotate(180deg)
+  transform: rotate(180deg);
 }
-
-@keyframes open {
-  from {
-    height: 52px;
-  }
-  to {
-    height: 100%;
-  }
-} 
 
 @media screen and (max-width: 800px) {
   .collapse__container--title {

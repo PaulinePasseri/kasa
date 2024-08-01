@@ -5,7 +5,7 @@ export default function Collapse({ title, description }) {
 
   return (
     <div
-      className={`collapse__container ${isCollapsed ? 'collapsed' : 'expanded animated--open'}`}
+      className={`collapse__container ${isCollapsed ? 'collapsed' : 'expanded'}`}
     >
       <div
         className="collapse__container--title"

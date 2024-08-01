@@ -38,6 +38,11 @@ li {
 
 }
 
+.about__container--collapse {
+  max-width: 1083px;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 1440px) {
   .content {
     padding: 0 20px;
