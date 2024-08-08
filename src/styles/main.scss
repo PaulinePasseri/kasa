@@ -12,9 +12,8 @@ $secondary-color: #e3e3e3;
 
 p,
 h2,
-ul, 
-body
-{
+ul,
+body {
   margin: 0;
 }
 
@@ -34,8 +33,6 @@ li {
 
 .content {
   padding: 0 50px;
-  max-width: 1440px;
-
 }
 
 .about__container--collapse {
