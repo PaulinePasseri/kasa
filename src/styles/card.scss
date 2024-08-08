@@ -20,20 +20,15 @@ $secondary-color: #e3e3e3;
     position: relative;
     margin: 25px;
     border-radius: 10px;
-    &::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(180deg, rgba(255,96,96,1) 43%, rgba(189,51,51,1) 100%);
-      z-index: 1;
-    }
   }
   &--img {
     object-fit: cover;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
   }
   &--title {
     position: absolute;

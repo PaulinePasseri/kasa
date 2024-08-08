@@ -15,8 +15,8 @@ export default function Header() {
       <Link to="/">
         <img src={currentLogo} alt="Logo Kasa" className="navBar__logo" />
       </Link>
-      <div className='navBar__routes'>
-      <Link
+      <div className="navBar__routes">
+        <Link
           className={`navBar__routes--link ${activeLink === '/' ? 'underline' : ''}`}
           to="/"
           onClick={() => setActiveLink('/')}
